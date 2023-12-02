@@ -17,11 +17,12 @@ const Navbar = () => {
      className='object-contain'
      />
      </Link>
-    <CustomButton
-    title= 'Sign Up'
-    btnType= 'button'
-    containerStyles='text-primary-blue rounded-full bg-white min-w-[130px]'
-    />
+    {/* <CustomButton
+          title='Sign Up'
+          btnType='button'
+          containerStyles='text-primary-blue rounded-full bg-white min-w-[130px]' handleClick={function (event: React.MouseEvent<HTMLButtonElement, MouseEvent>): void {
+            throw new Error('Function not implemented.')
+          } } rightIcon={''} isDisabled={false}    /> */}
       </nav>
       
     </header>
